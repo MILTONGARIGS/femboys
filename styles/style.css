@@ -13,12 +13,12 @@
 .logo-grid {
   grid-column: 1/4;
   grid-row: 1/3;
-  background-color: rgb(255, 0, 179);
-}
+  /* background-color: rgb(255, 0, 179);*/
+} 
 
 .logo {
-  width: 220px;
-  height: 220px;
+  padding: 0%;
+  border: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ body {
 .usuario-grid {
   grid-column: 1/4;
   grid-row: 3/9;
-  background-color: rgb(8, 255, 181);
+  /* background-color: rgb(8, 255, 181); */
 }
 
 .registro-grid {
@@ -63,10 +63,12 @@ body {
 }
 
 .form button {
-  padding: 0.5em 1em;
-  border: none;
+  padding: 1.5em 2em;
+  border: 0;
   background: rgb(100, 200, 255);
   cursor: pointer;
+  position: relative;
+  top: 150px;
 }
 
 .user {
