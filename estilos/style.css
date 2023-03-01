@@ -1,24 +1,77 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
-      }
-      .head {
+/* .head {
         grid-column: 1 / 4;
         grid-row: 1 / 2;
         background-color: aqua;
-      }
-      .body {
-        grid-column: 1 / 4;
-        grid-row: 2 / 8;
-        background-color: blue;
-        
-      }
-      .footer {
-        grid-column: 1 / 4;
-        grid-row: 8 / 8;
-        background-color: blueviolet;
-      }
-    
+      } */
+.logo-grid {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  background-color: rgb(255, 0, 179);
+}
+
+.logo {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+.usuario-grid {
+  grid-column: 1/4;
+  grid-row: 3/9;
+  background-color: rgb(8, 255, 181);
+}
+
+.registro-grid {
+  grid-column: 1/4;
+  grid-row: 1/9;
+  background-color: rgb(8, 255, 181);
+}
+
+/* .btn-grid {
+  grid-column: 1 / 4;
+  grid-row: 6 / 8;
+  background-color: blueviolet;
+} */
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+.user {
+  margin: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
