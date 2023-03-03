@@ -6,13 +6,13 @@
   /* background-color: rgb(255, 0, 179);*/
 }
 
-.logo {
+/* .logo {
   padding: 0%;
   border: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .usuario-grid {
   grid-column: 1/4;
@@ -35,12 +35,12 @@
   background-color: rgb(8, 255, 181);
 }
 
-.user {
+/* .user {
   margin: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 
 
@@ -56,25 +56,25 @@
 
 /*Calendario.html*/
 
-.calendar-head-grid{
+.calendar-head-grid {
   grid-column: 1/4;
   grid-row: 1;
   background-color: rgb(8, 255, 181);
 }
 
-.calendar-body-grid{
+.calendar-body-grid {
   grid-column: 1/4;
   grid-row: 2/6;
   background-color: rgb(255, 8, 243);
 }
 
-.calendar-foot-grid{
+.calendar-foot-grid {
   grid-column: 1/4;
   grid-row: 6/8;
   background-color: rgb(255, 0, 0);
 }
 
-.calendar-titulo{
+.calendar-titulo {
 
   padding: 0%;
   border: 0;
@@ -100,7 +100,7 @@ body {
   margin: 0;
 }
 
-.form {
+/* .form {
   width: 100%;
   max-width: 600px;
   margin: auto;
@@ -130,4 +130,4 @@ body {
   cursor: pointer;
   position: relative;
   top: 150px;
-}
+} */

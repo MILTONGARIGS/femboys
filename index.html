@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html data-theme="dark" lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
+    />
     <link
       rel="stylesheet"
       media="only screen and (min-width : 320px)  and (max-width : 480px)"
@@ -14,24 +18,54 @@
   </head>
   <body>
     <main>
-      <div class="wrapper">
-        <div class="logo-grid">
-          <div class = "logo">
-          <img src="img/logoApp.png"  alt="Logo de la aplicacion" width="300px" ></div>
-          </div>
+      <center>
+        <img
+          src="../femboys/img/logoApp.png"
+          alt="Logo"
+          width="200"
+          height="160"
+        />
+      </center>
+
+      <form>
+        <!-- Grid -->
+        <div class="grid">
+          <!-- Markup example 1: input is inside label -->
+          <label for="user">
+            <center>
+              <h1>Correo</h1>
+            </center>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Dame tu correo"
+              required
+            />
+          </label>
+
+          <label for="password">
+            <center>
+              <h1>Contraseña</h1>
+            </center>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Dame tu contraseña"
+              required
+            />
+          </label>
         </div>
-        <div class="usuario-grid">
-          <form class="form">
-            <h1>Usuario</h1>
-            <input type="text" />
-            <h1>Contraseña</h1>
-            <input type="password" />
-            <button type="submit">Iniciar sesion</button>
-          </form>
-          <a href="Page/Registro.html" class="user">Registrase</a>
-        </div>
-        <div class="btn-grid"></div>
-      </div>
+
+        <!-- Markup example 2: input is after label -->
+
+        <!-- Button -->
+        <button type="submit">Iniciar sesion</button>
+      </form>
+      <a href="../femboys/Page/Registro.html" class="contrast"
+        ><center><h4 class="contrast">Registrarse</h4></center></a
+      >
     </main>
   </body>
 </html>
